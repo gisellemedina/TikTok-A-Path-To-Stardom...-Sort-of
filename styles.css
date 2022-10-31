@@ -1,0 +1,142 @@
+body,
+html {
+	height: 100%;
+  margin: 0;
+  font-family: 'Georgia', sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	background-color: #e0ecf4;
+}
+
+.capstone-title {
+	color: #636363;
+	background-color: #9ebcda;
+	border-style: double;
+	border-width: 5px;
+	padding: 15px;
+	font-family: 'Georgia', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+.tab {
+	background-color: #9ebcda;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #9ebcda;
+  color: #636363;
+  float: center;
+  display: inline-block;
+  padding: 14px 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Georgia', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #636363;
+  color: #e0ecf4;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: #636363;
+  display: inline-block;
+  font-family: 'Georgia', sans-serif;
+  padding: 100px;
+  height: 100%;
+}
+
+/* Style the capstone blurb */
+.capstone-blurb {
+	color: #2b8cbe;
+	font-family: 'Georgia', sans-serif;
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#Audio {background-color: white;}
+#Article {background-color: white;}
+#About {background-color: white;}
+
+/* Style for Audio Doc. (and add height:100% for full page content) */
+.blurb-warning {
+	color: #9ebcda;
+	font-family: 'Georgia', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+.photo-caption {
+	color: #9ebcda;
+	font-size: 15px;
+	font-style: italic;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.audio {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.script-paragraph-2 {
+	color: #9ebcda;
+	font-weight: bold;
+}
+
+.script-name {
+	color: #9ebcda;
+}
+
+.script-music, .script-paragraph-24 {
+	font-style: italic;
+}
+
+/* Style for About (and add height:100% for full page content) */
+.grid-area {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.grid-item {
+	border-style: none;
+	border-width: 5px;
+	height: auto;
+	flex-basis: 40%;
+	margin: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+.grid-item img {
+	display: table;
+	margin: 0 auto;
+}
+
+/* Style for links */
+
+a:link {
+  color: #2b8cbe;
+}
+
+a:visited {
+  color: #636363;
+}
+
+a:hover {
+  color: #e0ecf4;
+}
+
