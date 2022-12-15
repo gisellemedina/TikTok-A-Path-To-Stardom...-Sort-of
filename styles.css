@@ -8,10 +8,7 @@ html {
 	background-color: black;
 }
 
-/* Style title */
-
 /* Style each page, tabs and tab content */
-
 #Home {background-color: #fee0d2;}
 #Audio {background-color: #fee0d2;}
 #Article {background-color: #fee0d2;}
@@ -119,7 +116,7 @@ img {
 	font-weight: bold;
 }
 
-.script-music, .script-paragraph-17 {
+.script-music, .script-paragraph-18 {
 	font-style: italic;
 }
 
